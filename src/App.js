@@ -5,6 +5,7 @@ import './App.css';
 import Home from './Home';
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 import zero from './assets/pngegg.png'
+import Signup from './components/Signup';
 
 function App() {
   const [value, setValue] = useState('')
@@ -24,7 +25,7 @@ function App() {
   <div className='container mt-3'>
     <div className='row'>
       <div className='col-md-5'>
-        Signup
+        <Signup/>
       </div>
       <div className='col-md-7'>
         <img className='img-fluid w-50' src={zero} alt='zeroTwo'/>
